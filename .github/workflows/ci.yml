@@ -18,7 +18,7 @@ jobs:
           cache-dependency-path: './frontend/package-lock.json'
       - name: Install npm packages
         run: npm install
-        working-directory: frotend
+        working-directory: frontend
       - name: Run linter
         run: npm run lint
         working-directory: frontend
